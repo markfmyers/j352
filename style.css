@@ -3,7 +3,7 @@ body {
   color:#fff000;
 }
 
-p {color:#ffffff
+p {color:#ffffff;
  font-family: "Open Sans", serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -12,17 +12,15 @@ p {color:#ffffff
     "wdth" 100;
 }
 
-h1 {color:#ffffff;
- font-family: "Georgia", serif;
+h1 {color:#000000;
+ font-family: Georgia, serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-background-color: #ffffff;
-width: 80%;
-padding: 25px;
-text-align: center;
+  background-color: #ffffff;
+  width: 80%;
+  padding: 25px;
+  text-align: center;
 }
 
 
