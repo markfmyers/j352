@@ -7,19 +7,19 @@ p {color:#007A33;
   background-color: #000000;
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
 
-h1 {color:#000000;
+h1 {color:#ffffff;
   font-family: Georgia, serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
-  background-color: #ffffff;
-  width: 80%;
+  background-color: #000000;
+  max-width: 100%;
   padding: 50px;
   text-align: center;
 }
@@ -27,6 +27,13 @@ h1 {color:#000000;
 img {
   width: 200px;
   height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
