@@ -3,13 +3,14 @@ body {
   color:#000000;
 }
 
-p {color:#000000;
-  background-color: #ffffff;
+p {color:#ffffff;
+  background-color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding: 10px;
   border-radius: 5px;
+  justify-content: center;
 }
 
 h1 {color:#ffffff;
@@ -28,7 +29,7 @@ h1 {color:#ffffff;
 
 .column {
   float: left;
-  width: calc(100% / 9);%;
+  width: calc(100% / 10);%;
 }
 
 .row::after {
@@ -57,6 +58,7 @@ img {
   font-style: normal;
   padding: 10px;
   border-radius: 5px;
+  justify-content: center;
 }
 
 #Para3 {
@@ -67,5 +69,6 @@ img {
   font-style: normal;
   padding: 10px;
   border-radius: 5px;
+  justify-content: center;
 }
 
