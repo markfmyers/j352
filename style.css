@@ -241,3 +241,84 @@ h3:hover {
   padding: 20px;
 }
 
+h4 {color:#000000;
+  font-family: Nunito Sans, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #ffffff;
+  width: 30%;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+h5 {color:#000000;
+  font-family: Nunito Sans, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #ffffff;
+  width: 25%;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+h6 {color:#000000;
+  font-family: Nunito Sans, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #ffffff;
+  width: 50%;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+
+.customexpand {color:#000000;
+  font-family: Nunito Sans, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #ffffff;
+  width: 50%;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+h4:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h5:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h6:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h7:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
