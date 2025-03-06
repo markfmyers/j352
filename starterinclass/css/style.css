@@ -14,8 +14,7 @@ body {
   height: 100px;
   background-color: #000000;
   color: white;
-  border: solid;
-  border-color: red 2px;
+  border: solid 2px red;
 }
 
 .box3 {
