@@ -1,0 +1,173 @@
+body {
+	background-color: #D3D3D3;
+	color: #000000;
+}
+
+
+.open-sans {
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-heading1 {
+  background-color: #D3D3D3;
+  color: #000000;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #000000;
+  margin: 20px auto;
+  width: 100%;
+}
+
+p {
+	margin: 20px 0;
+}
+
+.pull-quote {
+  font-size: 1.75em;
+  font-style: italic;
+  color: #000000;
+  border-left: 5px solid #000000;
+  padding-left: 20px;
+  margin: 20px 0;
+  font-family: 'Georgia', serif;
+  line-height: 1.5;
+}
+
+.pull-quote p {
+  margin: 0;
+}
+
+.dateline {
+	font-weight: bold;
+	text-align: center;
+}
+
+.selection {
+font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2.0em;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.container, .container2, .container3, .container4, .container5 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.container img, .container2 img, .container3 img, .container4 img, .container5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 700px;
+  max-height: 500px;
+  position: relative;
+}
+
+.caption {
+	font-size: 15px;
+	color: #000000;
+	margin-top: 2px;
+}
+
+.grid-container {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.grid-x {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cell {
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.large-6 {
+  width: 50%;
+}
+
+.medium-6 {
+  width: 50%;
+}
+
+.small-12 {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.smaller-text {
+	font-size: .8rem;
+	line-height: 1.2;
+}
+
+.back-to-top {
+	text-align: center;
+}
+
+.infogram-container {
+  width: 100%;
+  max-width: 700px; /* adjust as needed */
+  margin: 0 auto;
+}
+
+.infogram-embed {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.infogram-attribution {
+  padding: 8px 0;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  border-top: 1px solid #dadada;
+  margin: 0 30px;
+}
+
+.infogram-attribution a {
+  color: #989898;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .infogram-attribution {
+    margin: 0 10px;
+    font-size: 12px;
+  }
+}
+
+.back-to-top {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
