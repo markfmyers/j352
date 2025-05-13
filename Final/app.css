@@ -1,8 +1,7 @@
 body {
-	background-color: #D3D3D3;
-	color: #000000;
+  background-color: #EAE7DC;
+  color: #000000;
 }
-
 
 .open-sans {
   font-optical-sizing: auto;
@@ -13,10 +12,10 @@ body {
 }
 
 .open-sans-heading1 {
-  background-color: #D3D3D3;
+  background-color: #F9F6F1;
   color: #000000;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -37,13 +36,16 @@ p {
 
 .pull-quote {
   font-size: 1.75em;
-  font-style: italic;
-  color: #000000;
-  border-left: 5px solid #000000;
-  padding-left: 20px;
-  margin: 20px 0;
   font-family: 'Georgia', serif;
-  line-height: 1.5;
+  color: #000000;
+  border-left: 6px solid #000000;
+  background-color: #EAE7DC;
+  padding: 20px 25px;
+  margin: 40px auto;
+  max-width: 800px;
+  line-height: 1.6;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .pull-quote p {
@@ -51,8 +53,8 @@ p {
 }
 
 .dateline {
-	font-weight: bold;
 	text-align: center;
+  font-weight: 500;
 }
 
 .selection {
@@ -72,6 +74,7 @@ font-family: "Open Sans", sans-serif;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  margin-top: 40px;
 }
 
 .container img, .container2 img, .container3 img, .container4 img, .container5 img {
@@ -90,8 +93,10 @@ font-family: "Open Sans", sans-serif;
 }
 
 .grid-container {
+  background-color: #F9F6F1;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .grid-x {
@@ -135,7 +140,7 @@ img {
 
 .infogram-container {
   width: 100%;
-  max-width: 700px; /* adjust as needed */
+  max-width: 700px;
   margin: 0 auto;
 }
 
